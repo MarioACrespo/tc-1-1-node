@@ -1,6 +1,10 @@
 const path = require('path');
 const ScoreCounter = require('score-tests');
 
+/* I  don't  know how to fix, but I do know 
+it might have something to do with the 'path' 
+not being ./path and the same for score-tests
+*/
 
 const testSuiteName = 'Debug Tests';
 const scoresDir = path.join(__dirname, '..', 'scores');

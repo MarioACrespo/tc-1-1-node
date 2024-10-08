@@ -2,6 +2,11 @@ const anotherFunction = () => {
   return "No, you don't.";
 };
 
-module.exports = () => {
+liarFunction = () => {
   return 'I stand alone.';
 };
+
+module.exports = {
+  liarFunction,
+  anotherFunction
+}
